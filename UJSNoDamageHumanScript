@@ -1,0 +1,7 @@
+while getgenv().GodMode == true do
+	for i,v in pairs(workspace.Attacks:GetDescendants()) do
+		if v.Name == 'TouchInterest' then
+			v:Destroy()
+		end
+	end
+end
