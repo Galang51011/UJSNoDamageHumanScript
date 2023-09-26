@@ -4,7 +4,7 @@ game.StarterGui:SetCore("SendNotification", {
     Icon = "";
     Duration = "4";
 })
-while getgenv().GodMode == true do
+while getgenv().GodMode == true do wait()
 	for i,v in pairs(workspace.Attacks:GetDescendants()) do
 		if v.Name == 'TouchInterest' then
 			v:Destroy()
