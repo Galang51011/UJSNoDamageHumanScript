@@ -1,3 +1,9 @@
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Script made by NotGal";
+    Text = "Subscribe to NotGal";
+    Icon = "";
+    Duration = "4";
+})
 while getgenv().GodMode == true do
 	for i,v in pairs(workspace.Attacks:GetDescendants()) do
 		if v.Name == 'TouchInterest' then
